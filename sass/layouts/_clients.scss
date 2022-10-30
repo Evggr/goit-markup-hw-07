@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -6,12 +6,12 @@
     margin-bottom: 50px;
   }
   
-  .clients-list {
+  .clients__list {
     display: flex;
     justify-content: center;
     gap: 30px;
   }
-  .clients-link {
+  .clients__link {
     display: flex;
     justify-content: center;
     width: 170px;
@@ -28,12 +28,12 @@
       }
   }
   
-  .clients-icon {
+  .clients__icon {
     fill: #afb1b8;
     transition: var(--timing-function);
 
-    .clients-link:hover &,
-  .clients-link:focus & {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: var(--accent-color);
   }
   }
